@@ -1,9 +1,17 @@
 <h1 style="text-align: center; font-size: 50px;">Welcome to the homepage!</h1>
-<button style="margin-left: 50%; margin-bottom: 5px; padding: 15px 32px;
-text-align: center; background-color: grey; font-size: 16px;"
-font-size: 16px;>
-<%= link_to "About", about_path %>
-</button>
+
+<div  style="display: flex; justify-content: center; margin-bottom: 5px;">
+  <button style="margin: 5px; padding: 15px 32px;
+  text-align: center; background-color: grey; font-size: 16px;">
+  <%= link_to "Alpha Blog", articles_path %>
+  </button>
+
+  <button style="margin: 5px; padding: 15px 32px;
+  text-align: center; background-color: grey; font-size: 16px;">
+  <%= link_to "About", about_path %>
+  </button>
+</div>
+
 <img style="display: block; margin-left: auto; margin-right: auto;
 margin-bottom: 50px; width: 100%; border-radius: 3px;"
 src="https://i.etsystatic.com/14632471/r/il/39cf7b/1262476848/il_570xN.1262476848_ltor.jpg"
