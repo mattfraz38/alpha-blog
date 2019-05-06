@@ -17,6 +17,14 @@ $navbar-default-bg: #013487;
   text-decoration: none;
 }
 
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #337ab7;
+}
+
 body {
   overflow-x: hidden;
 }
