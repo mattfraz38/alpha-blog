@@ -3,6 +3,10 @@ $navbar-default-bg: #013487;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+body {
+  overflow-x: hidden;
+}
+
 #logo {
   float: left;
   font-size: 1.7em;
@@ -25,16 +29,13 @@ $navbar-default-bg: #013487;
   color: #337ab7;
 }
 
-body {
-  overflow-x: hidden;
-}
-
 .center {
   text-align: center;
 }
 
 .jumbotron {
-  background-image: asset-url('compressed-2.jpg');
+  // background-image: asset-url('compressed-img.jpg');
+  background-image: asset-url('balloon-range.jpg');
   background-size: cover;
   height: 760px;
 }
