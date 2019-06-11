@@ -1,10 +1,18 @@
-$navbar-default-bg: #013487;
+// $navbar-default-bg: #013487;
+$navbar-default-bg: #a2a4d3;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
 body {
   overflow-x: hidden;
+}
+
+a {
+  color: #b306ad;
+  &:hover {
+    color: #a2a4d3;
+  }
 }
 
 #logo {
@@ -21,12 +29,17 @@ body {
   text-decoration: none;
 }
 
+.navbar-default{
+  margin-bottom: 0px;
+}
+
 .navbar-default .navbar-nav > li > a {
   color: #fff;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-  color: #337ab7;
+  // color: #337ab7;
+  color: #b306ad;
 }
 
 .center {
@@ -37,7 +50,9 @@ body {
   // background-image: asset-url('compressed-img.jpg');
   background-image: asset-url('balloon-range.jpg');
   background-size: cover;
-  height: 760px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 95vh;
 }
 
 .jumbotron h1 {
@@ -51,6 +66,25 @@ body {
 .btn-xlarge {
   font-size: 1.7em;
   background-color: #10c76c;
+}
+
+.about-home-btn {
+  background-color: #a2a4d3;
+  color: #fff;
+  &:hover{
+    color: #b306ad;
+  }
+}
+
+.matt-img {
+  height: 800px;
+  border-radius: 3px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  margin: 60px;
 }
 
 .article-meta-details {
