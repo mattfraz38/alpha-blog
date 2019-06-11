@@ -49,23 +49,64 @@ a {
 .jumbotron {
   // background-image: asset-url('compressed-img.jpg');
   background-image: asset-url('balloon-range.jpg');
+  background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 95vh;
 }
 
+// .background-home {
+//   // background-image: asset-url('compressed-img.jpg');
+//   background-image: asset-url('balloon-range.jpg');
+//   background-attachment: fixed;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   height: 95vh;
+// }
+
 .jumbotron h1 {
-  color: #fff;
+  // color: #fff;
   text-align: center;
   margin-bottom: 30px;
   letter-spacing: -1px;
   font-weight: bold;
+  color: #b306ad;
+  // color: #a2a4d3;
+  //   color: #d2baa3;
 }
+// .background-description h1 {
+//   color: #fff;
+//   text-align: center;
+//   margin-bottom: 30px;
+//   letter-spacing: -1px;
+//   font-weight: bold;
+// }
 
 .btn-xlarge {
   font-size: 1.7em;
   background-color: #10c76c;
+}
+
+// .jumbotron-about {
+//   // background-image: asset-url('LeWagon-Demo-Day-1.jpg');
+//   // height: 800px;
+//   border-radius: 3px;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   // height: 660px;
+//   width: 200%;
+//   height: 70vh;
+// }
+
+.about-title {
+  // text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+  color: #b306ad;
 }
 
 .about-home-btn {
@@ -77,7 +118,7 @@ a {
 }
 
 .matt-img {
-  height: 800px;
+  height: 630px;
   border-radius: 3px;
 }
 
