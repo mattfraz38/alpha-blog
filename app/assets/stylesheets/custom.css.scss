@@ -30,7 +30,8 @@ a {
 }
 
 .navbar-default{
-  margin-bottom: 0px;
+  margin-bottom: -1px;
+  border-radius: 0px;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -55,7 +56,24 @@ a {
   background-position: center;
   height: 95vh;
 }
-
+.background {
+  background-image: asset-url('balloon-range.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 95vh;
+}
+.background h1 {
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 100px;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #b306ad;
+}
 // .background-home {
 //   // background-image: asset-url('compressed-img.jpg');
 //   background-image: asset-url('balloon-range.jpg');
