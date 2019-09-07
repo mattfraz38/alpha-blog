@@ -15,6 +15,10 @@ a {
   }
 }
 
+h1 {
+  padding-top: 60px;
+}
+
 #logo {
   float: left;
   font-size: 1.7em;
@@ -27,6 +31,13 @@ a {
 #logo:hover {
   color: #fff;
   text-decoration: none;
+}
+
+.alert {
+  position: fixed;
+  top: 52px;
+  margin-top: 20px;
+  width: inherit;
 }
 
 .navbar-default{
