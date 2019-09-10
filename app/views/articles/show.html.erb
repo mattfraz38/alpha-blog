@@ -21,11 +21,18 @@
       </div>
     </ul>
   <% end %>
-  <h4 class="center description"><strong></strong></h4>
+  <h4 class="center description"></h4>
+
+  <% if @article.categories.any? %>
+    <p align="center"><%= render @article.categories %></p>
+  <% end %>
+
 
   <hr>
   <div class="text-justify">
     <%= simple_format(@article.description) %>
+
+
     <div class="article-meta-details" align="center">
       <small>
         Created:

@@ -15,8 +15,8 @@ a {
   }
 }
 
-h1 {
-  padding-top: 60px;
+h1, h2 {
+  padding-top: 70px;
 }
 
 #logo {
@@ -31,6 +31,14 @@ h1 {
 #logo:hover {
   color: #fff;
   text-decoration: none;
+}
+
+.badge {
+  // background-color: #cef6f5;
+  background-color: #ffed62;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
 }
 
 .alert {
@@ -180,6 +188,10 @@ h1 {
   border-top: 1px solid #eaeaea;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+.checkbox {
+  width: auto !important;
 }
 
 .listing {
